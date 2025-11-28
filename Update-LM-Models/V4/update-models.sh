@@ -69,7 +69,7 @@ fetch_models() {
         return 1
     fi
 
-    local model_ids=$(echo "$models_json" | jq -r '.data[].id')
+    local model_ids=$(echo "$models_json" | jq -r 'if .data and (.data | type) == "array" then .data[].id else empty end')
 
     if [[ -z "$model_ids" ]]; then
         return 1
