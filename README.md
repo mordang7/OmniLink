@@ -1,24 +1,30 @@
-# 🚀 OpenCode Model Updater
+# 🔗 OmniLink
+### The Universal Neural Bridge
 
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/mordang7/OpenCode-Model-Updater)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE) <!-- Assuming MIT, add if needed -->
+![Status](https://img.shields.io/badge/Status-Beta-blue?style=for-the-badge) ![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Windows-lightgrey?style=for-the-badge) ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-Keep your OpenCode AI models fresh! This handy tool automatically syncs models from your local Ollama, LM Studio, and Llama.cpp servers, ensuring you always have the latest options without manual hassle.
+**Connect your Intelligence. Unify your Workflow.**
 
-Now available with a modern Terminal UI for Linux and a native GUI for Windows!
+OmniLink is the vital synapse between your local AI backends and your development environment. It automatically synchronizes models from **Ollama**, **LM Studio**, and **Llama.cpp** directly into **OpenCode**, ensuring your coding assistant always has access to your latest local LLMs.
 
-## ✨ What It Does
+No more manual config editing. No more copy-pasting API keys. Just flow.
 
--   🔍 **Scans** for new models on Ollama, LM Studio, and Llama.cpp (concurrently!).
--   📥 **Updates** your OpenCode config with the freshest models.
--   🗑️ **Removes** outdated models that are no longer available.
--   📊 **Visualizes** the process with progress bars and summary tables.
--   ⚙️ **Configures** itself on first run—choose localhost or network setup.
--   💾 **Persists** your server configurations so you don't have to re-enter them.
+---
 
-## 🛠️ How to Use
+## ✨ Features
 
-### 🐧 Linux (V5 - Recommended)
+*   **🔌 Universal Adapter**: Scans multiple providers (Ollama, LM Studio, Llama.cpp) concurrently.
+*   **🔄 Auto-Sync**: Detects new `.gguf` models or pulled Ollama blobs and instantly updates your OpenCode config.
+*   **🧹 Smart Garbage Collection**: Automatically prunes dead links to models you've deleted.
+*   **📊 Visual Telemetry**:
+    *   **Linux**: Slick Terminal UI (TUI) with progress bars and status tables.
+    *   **Windows**: Native GUI for a seamless desktop experience.
+*   **🧠 Context Awareness**: Remembers your server configurations (Localhost vs Network) so you only set them up once.
+
+## 📦 Installation
+
+### 🐧 Linux (OmniLink v5 - Recommended)
+*Perfect for headless servers or desktop Linux.*
 
 1.  **Install**:
     ```bash
@@ -27,29 +33,32 @@ Now available with a modern Terminal UI for Linux and a native GUI for Windows!
     ./install.sh
     ```
 2.  **Run**:
-    Type `mu` in any terminal window.
-    *(Note: `mu` stands for Model Updater)*
+    Just type `mu` in your terminal.
+    *(mu = Model Updater)*
 
-### 🪟 Windows (V1 - Recommended)
+### 🪟 Windows (OmniLink v1 - Recommended)
+*Native application for Windows 10/11.*
 
 1.  **Install**:
-    Navigate to `Update-LM-Models/Windows_V1` and double-click `install.bat`.
+    Navigate to `Update-LM-Models/Windows_V1` and run `install.bat`.
 2.  **Run**:
-    Launch "OpenCode Model Updater" from your Desktop shortcut.
+    Launch **"OmniLink"** (formerly OpenCode Model Updater) from your Desktop shortcut.
 
-### 👴 Legacy (V4 - Bash Script)
+### 👴 Legacy (v4 - Bash Script)
 1. **Make executable**: `chmod +x Update-LM-Models/V4/update-models.sh`
 2. **Run it**: `./Update-LM-Models/V4/update-models.sh`
 
 ## 📋 Requirements
 
--   🐳 Ollama, 🧠 LM Studio, or 🦙 Llama.cpp running locally or on your network.
--   **Linux**: Python 3 (dependencies installed via script).
--   **Windows**: Python 3 installed and added to PATH.
+*   **Backends**: Running instance of Ollama, LM Studio, or Llama.cpp.
+*   **Linux**: Python 3.
+*   **Windows**: Python 3 added to PATH.
 
-## 🤝 Contributing
+## 🤝 Support the Project
 
-Feel free to open issues or PRs for improvements!
+If OmniLink streamlines your AI workflow, consider fueling the development!
 
-## 💖 Support
-If you find this tool helpful, consider supporting me on [PayPal](https://paypal.me/GeekJohn)! Every bit helps keep the project going. 🚀
+[![Donate with PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/paypalme/GeekJohn)
+
+---
+*Connecting the dots in your local AI ecosystem.*
