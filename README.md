@@ -1,6 +1,8 @@
 # 🔗 OmniLink
 ### The Universal Neural Bridge
 
+![OmniLink Banner](assets/banner.png)
+
 ![Status](https://img.shields.io/badge/Status-Beta-blue?style=for-the-badge) ![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Windows-lightgrey?style=for-the-badge) ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 **Connect your Intelligence. Unify your Workflow.**
@@ -8,6 +10,8 @@
 OmniLink is the vital synapse between your local AI backends and your development environment. It automatically synchronizes models from **Ollama**, **LM Studio**, and **Llama.cpp** directly into **OpenCode**, ensuring your coding assistant always has access to your latest local LLMs.
 
 No more manual config editing. No more copy-pasting API keys. Just flow.
+
+![OmniLink Showcase](assets/showcase.png)
 
 ---
 
