@@ -18,45 +18,56 @@ No more manual config editing. No more copy-pasting API keys. Just flow.
 ## ✨ Features
 
 *   **🔌 Universal Adapter**: Scans multiple providers (Ollama, LM Studio, Llama.cpp) concurrently.
-*   **🔄 Auto-Sync**: Detects new `.gguf` models or pulled Ollama blobs and instantly updates your OpenCode config.
+*   **🔄 Auto-Sync**: Detects new models and instantly updates your OpenCode config.
 *   **🧹 Smart Garbage Collection**: Automatically prunes dead links to models you've deleted.
+*   **📁 Flexible Config Path**: Browse and select your own `opencode.json` location.
+*   **🛠️ Auto-Create Config**: Creates the config file if it doesn't exist.
 *   **📊 Visual Telemetry**:
     *   **Linux**: Slick Terminal UI (TUI) with progress bars and status tables.
-    *   **Windows**: Native GUI for a seamless desktop experience.
-*   **🧠 Context Awareness**: Remembers your server configurations (Localhost vs Network) so you only set them up once.
+    *   **Windows**: Cyberpunk-themed GUI with neon aesthetics.
+*   **🧠 Context Awareness**: Remembers your server configurations so you only set them up once.
 
-## 📦 Installation
+---
 
-### 🐧 Linux (OmniLink v5 - Recommended)
-*Perfect for headless servers or desktop Linux.*
+## 📦 Download
 
-1.  **Install**:
+### [⬇️ Latest Release: OmniLink V0.1 BETA](https://github.com/mordang7/OmniLink/releases/tag/v0.1-beta)
+
+| Platform | Download |
+|----------|----------|
+| 🐧 Linux | [OmniLink_V0.1_BETA_Linux.7z](https://github.com/mordang7/OmniLink/releases/download/v0.1-beta/OmniLink_V0.1_BETA_Linux.7z) |
+| 🪟 Windows | [OmniLink_V0.1_BETA_Windows.7z](https://github.com/mordang7/OmniLink/releases/download/v0.1-beta/OmniLink_V0.1_BETA_Windows.7z) |
+
+---
+
+## 🚀 Installation
+
+### 🐧 Linux
+
+1.  **Extract** the archive
+2.  **Install**:
     ```bash
-    cd Update-LM-Models/V5
     chmod +x install.sh
     ./install.sh
     ```
-2.  **Run**:
-    Just type `mu` in your terminal.
-    *(mu = Model Updater)*
+3.  **Run**: Type `omnilink` in your terminal
 
-### 🪟 Windows (OmniLink v1 - Recommended)
-*Native application for Windows 10/11.*
+### 🪟 Windows
 
-1.  **Install**:
-    Navigate to `Update-LM-Models/Windows_V1` and run `install.bat`.
-2.  **Run**:
-    Launch **"OmniLink"** (formerly OpenCode Model Updater) from your Desktop shortcut.
+1.  **Extract** `OmniLink.exe` from the archive
+2.  **Run**: Double-click `OmniLink.exe`
 
-### 👴 Legacy (v4 - Bash Script)
-1. **Make executable**: `chmod +x Update-LM-Models/V4/update-models.sh`
-2. **Run it**: `./Update-LM-Models/V4/update-models.sh`
+*No Python installation required - standalone executable!*
+
+---
 
 ## 📋 Requirements
 
-*   **Backends**: Running instance of Ollama, LM Studio, or Llama.cpp.
-*   **Linux**: Python 3.
-*   **Windows**: Python 3 added to PATH.
+*   **Backends**: Running instance of Ollama, LM Studio, or Llama.cpp
+*   **Linux**: Python 3 (for installation only)
+*   **Windows**: None (standalone .exe)
+
+---
 
 ## 🤝 Support the Project
 
