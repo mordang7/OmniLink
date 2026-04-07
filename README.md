@@ -73,7 +73,7 @@ No more manual config editing. No more copy-pasting API keys. Just flow.
 
 If OmniLink streamlines your AI workflow, consider fueling the development!
 
-[![Donate with PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/paypalme/GeekJohn)
+[![Ko-Fi](https://img.shields.io/badge/Ko--Fi-Support%20Me-F16061?style=flat&logo=ko-fi&logoColor=white)](https://ko-fi.com/geekj)
 
 ---
 *Connecting the dots in your local AI ecosystem.*
